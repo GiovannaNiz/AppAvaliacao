@@ -26,6 +26,8 @@ class MainActivity : AppCompatActivity() {
             }else{
                 Toast.makeText(this, "Campo 2 é maior que o Campo 1", Toast.LENGTH_SHORT).show()
             }
+        }else{
+            Toast.makeText(this, "Preencha os dois campos", Toast.LENGTH_SHORT).show()
         }
     }
 }
